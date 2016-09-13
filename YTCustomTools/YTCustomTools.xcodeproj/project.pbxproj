@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5703B5241D6ED5E200820F54 /* NSString+YTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5703B5231D6ED5E200820F54 /* NSString+YTCategory.m */; };
+		5703B5271D6ED7D000820F54 /* UIColor+YTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5703B5261D6ED7D000820F54 /* UIColor+YTCategory.m */; };
+		5703B52A1D6ED9A800820F54 /* UIButton+YTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5703B5291D6ED9A800820F54 /* UIButton+YTCategory.m */; };
+		5703B52D1D6EDA0400820F54 /* UIBarButtonItem+YTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5703B52C1D6EDA0400820F54 /* UIBarButtonItem+YTCategory.m */; };
 		57B366CF1D6DA5A300B6C40B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B366CE1D6DA5A300B6C40B /* main.m */; };
 		57B366D21D6DA5A300B6C40B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B366D11D6DA5A300B6C40B /* AppDelegate.m */; };
 		57B366D51D6DA5A300B6C40B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B366D41D6DA5A300B6C40B /* ViewController.m */; };
@@ -36,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5703B5221D6ED5E200820F54 /* NSString+YTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YTCategory.h"; sourceTree = "<group>"; };
+		5703B5231D6ED5E200820F54 /* NSString+YTCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YTCategory.m"; sourceTree = "<group>"; };
+		5703B5251D6ED7D000820F54 /* UIColor+YTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YTCategory.h"; sourceTree = "<group>"; };
+		5703B5261D6ED7D000820F54 /* UIColor+YTCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YTCategory.m"; sourceTree = "<group>"; };
+		5703B5281D6ED9A800820F54 /* UIButton+YTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YTCategory.h"; sourceTree = "<group>"; };
+		5703B5291D6ED9A800820F54 /* UIButton+YTCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YTCategory.m"; sourceTree = "<group>"; };
+		5703B52B1D6EDA0400820F54 /* UIBarButtonItem+YTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YTCategory.h"; sourceTree = "<group>"; };
+		5703B52C1D6EDA0400820F54 /* UIBarButtonItem+YTCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YTCategory.m"; sourceTree = "<group>"; };
 		57B366CA1D6DA5A300B6C40B /* YTCustomTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTCustomTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B366CE1D6DA5A300B6C40B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57B366D01D6DA5A300B6C40B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +93,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5703B5211D6ED5CB00820F54 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5703B5221D6ED5E200820F54 /* NSString+YTCategory.h */,
+				5703B5231D6ED5E200820F54 /* NSString+YTCategory.m */,
+				5703B5251D6ED7D000820F54 /* UIColor+YTCategory.h */,
+				5703B5261D6ED7D000820F54 /* UIColor+YTCategory.m */,
+				5703B5281D6ED9A800820F54 /* UIButton+YTCategory.h */,
+				5703B5291D6ED9A800820F54 /* UIButton+YTCategory.m */,
+				5703B52B1D6EDA0400820F54 /* UIBarButtonItem+YTCategory.h */,
+				5703B52C1D6EDA0400820F54 /* UIBarButtonItem+YTCategory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		57B366C11D6DA5A300B6C40B = {
 			isa = PBXGroup;
 			children = (
@@ -104,10 +131,8 @@
 		57B366CC1D6DA5A300B6C40B /* YTCustomTools */ = {
 			isa = PBXGroup;
 			children = (
-				57B367001D6DA64900B6C40B /* Category */,
+				5703B5211D6ED5CB00820F54 /* Category */,
 				57B367011D6DA64900B6C40B /* Custom */,
-				57B367021D6DA64900B6C40B /* Extension */,
-				57B367031D6DA64900B6C40B /* NetworkTool */,
 				57B366D01D6DA5A300B6C40B /* AppDelegate.h */,
 				57B366D11D6DA5A300B6C40B /* AppDelegate.m */,
 				57B366D31D6DA5A300B6C40B /* ViewController.h */,
@@ -147,13 +172,6 @@
 			path = YTCustomToolsUITests;
 			sourceTree = "<group>";
 		};
-		57B367001D6DA64900B6C40B /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
 		57B367011D6DA64900B6C40B /* Custom */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,20 +179,6 @@
 				57B367051D6DA67300B6C40B /* FPSLabel.m */,
 			);
 			path = Custom;
-			sourceTree = "<group>";
-		};
-		57B367021D6DA64900B6C40B /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		57B367031D6DA64900B6C40B /* NetworkTool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NetworkTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,7 +313,11 @@
 			files = (
 				57B366D51D6DA5A300B6C40B /* ViewController.m in Sources */,
 				57B366D21D6DA5A300B6C40B /* AppDelegate.m in Sources */,
+				5703B52A1D6ED9A800820F54 /* UIButton+YTCategory.m in Sources */,
+				5703B52D1D6EDA0400820F54 /* UIBarButtonItem+YTCategory.m in Sources */,
+				5703B5271D6ED7D000820F54 /* UIColor+YTCategory.m in Sources */,
 				57B367061D6DA67300B6C40B /* FPSLabel.m in Sources */,
+				5703B5241D6ED5E200820F54 /* NSString+YTCategory.m in Sources */,
 				57B366CF1D6DA5A300B6C40B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +544,7 @@
 				57B366F91D6DA5A400B6C40B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57B366FA1D6DA5A400B6C40B /* Build configuration list for PBXNativeTarget "YTCustomToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +553,7 @@
 				57B366FC1D6DA5A400B6C40B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57B366FD1D6DA5A400B6C40B /* Build configuration list for PBXNativeTarget "YTCustomToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +562,7 @@
 				57B366FF1D6DA5A400B6C40B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
